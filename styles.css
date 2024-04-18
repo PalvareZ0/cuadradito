@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.clock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.square {
+    position: fixed;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+
+.projectile {
+    position: fixed;
+    background-color: yellow;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
